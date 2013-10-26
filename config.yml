@@ -1,0 +1,108 @@
+# ############################################################ #
+#                        Information
+# Made by sy8the2flies                                         #
+# Use ~ for color codes                                        #
+# signName is the name that will appear on the initial sign.   #
+# signAlias is the alias to placing the sign down.             #
+# signBottom is mainly for checking purposes. (Don't change)   #
+# notEnoughFunds is when the player doesn't have enough funds.  #
+# itemNotValid is the unenchantable item message.              #
+# enchantmentNotValid is the unvalid enchantment message.      #
+# prefix is the prefix before the messages on screen.          #
+# logCommands is to help you tell what the player uses.        #
+# useTokenSystem is the system implemented in the plugin.      #
+# validEnchants is a list of valid enchantments.(Don't change) #
+# validItems is a list of all the valid items to be enchanted. #                                                                    
+# ############################################################ #
+#                        Permissions                           # 
+# signenchant.create                                            #
+# signenchant.add                                               #
+# signenchant.remove                                            #
+# signenchant.check                                             #
+# signenchant.use                                               #
+# signenchant.help                                              #
+# ############################################################ #
+signName: "[~aSEnchant~0]"
+                                                                                                                                               
+signAlias: "[senchant]" 
+
+signBottom: "~a<~2++~a>"
+
+notEnoughFunds: "~cYou do not have sufficient funds for this enchant!"
+
+itemNotValid: "~cThe item you are holding is invalid!"
+
+enchantmentNotValid: "~cThe enchantment on the sign is invalid!"
+
+prefix: "~6[~5SEnchant~6]"
+
+logCommands: true
+
+useTokenSystem: true
+
+validEnchants:
+  - power
+  - flame
+  - infinity
+  - punch
+  - sharpness
+  - baneofa
+  - smite
+  - unbreaking
+  - fire_aspect
+  - knockback
+  - fortune
+  - looting
+  - respiration
+  - efficiency
+  - protection
+  - blastprot
+  - featherfall
+  - fireprot
+  - arrowprot
+  - silk_touch
+  - thorns
+  - aquafinity
+
+validItems:
+  - 256
+  - 257
+  - 258
+  - 261
+  - 267
+  - 268
+  - 269
+  - 270
+  - 271
+  - 272
+  - 273
+  - 274
+  - 275
+  - 276
+  - 277
+  - 278
+  - 279
+  - 283
+  - 284
+  - 285
+  - 286
+  - 298
+  - 299
+  - 300
+  - 301
+  - 302
+  - 303
+  - 304
+  - 305
+  - 306
+  - 307
+  - 308
+  - 309
+  - 310
+  - 311
+  - 312
+  - 313
+  - 314
+  - 315
+  - 316
+  - 317

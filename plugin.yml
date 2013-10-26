@@ -1,0 +1,10 @@
+name: SEnchant
+version: 2.0
+main: com.sky8the2flies.signenchant.SignEnchant
+author: [sky8the2flies]
+description: Adds enchantment to usable item from the SEnchant sign
+depend: [Essentials]
+commands:
+   tokens:
+      description: Main usage - /tokens help
+      aliases: ienchant
